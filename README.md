@@ -7,7 +7,8 @@ it create a shortcode for displaying weather forcast via shortcode.
 
 If you would like to have the user entering his own values for the weather forcast you can create a custom field that will get the shortcode and add it to a page template lkike so:
 
-##this code goes to the page template where you wqant to display the widjet:
+##this code goes to the page template where you wqant to display the widjet, asuming you haev a custom field called "weather" that hold the shortcode entered by the user in the ACF options page:
+
     <section class="hp-weather">
         <div class="weather-container">
             <?php
