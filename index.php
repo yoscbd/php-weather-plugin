@@ -56,7 +56,7 @@ echo '</pre>'; */
     }
 
     // }
-
+//Generate the html for displaying weather forcast:
     $obj_to_return = '<div class="weather"><div class="forcast">' . $forecast_str . '</div>';
     $obj_to_return .= '<div class="icon">' . $icon_img . '</div></div>';
     return $obj_to_return;
